@@ -15,6 +15,6 @@ public class Car
     public bool IsAvailable { get; set; } = true;
 
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-
-    public List<Reservation> Reservations { get; set; } = new();
+    public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
+    
 }
