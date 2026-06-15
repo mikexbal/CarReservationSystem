@@ -9,10 +9,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e67312f-8d7c-441e-a371-aad92c376cc0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CarRental.API/Data/AppDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CarReservationSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CarReservationSystem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CarRental.API/CarRental.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental.API/CarRental.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRental.API/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRental.API/Models/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental.API/Models/Car.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CarRental.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarRental.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental.API/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRental.API/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRental.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarRental.API/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,43 +29,62 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "mikexbal"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mikexbal&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/mikexbal/CarReservationSystem.git",
-    "accountId": "a52fc84d-9d75-4906-9ea9-eb57e1aff702"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mikexbal/CarReservationSystem.git&quot;,
+    &quot;accountId&quot;: &quot;a52fc84d-9d75-4906-9ea9-eb57e1aff702&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CarRental.API/Data/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarRental.API/Models/Car.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarRental.API/Models/Customer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarRental.API/Models/Reservation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/michaelbalogun/GitRepos/CarReservationSystem/CarRental.API/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/michaelbalogun/GitRepos/CarReservationSystem/CarRental.API/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="3FB1SfgL9GzNVHB9h2VAyQsMUql" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.CarRental.API: http.executor": "Run",
-    ".NET Launch Settings Profile.CarRental.API: https.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.CarRental.API: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.CarRental.API: https.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;RiderNuGetOptionsPageId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CarRental.API: https">
     <configuration name="CarRental.API: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CarRental.API/CarRental.API.csproj" />
@@ -103,7 +126,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1781533650291</updated>
-      <workItem from="1781533652445" duration="1754000" />
+      <workItem from="1781533652445" duration="9006000" />
+      <workItem from="1781559857426" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="Project setup">
       <option name="closed" value="true" />
@@ -113,7 +137,23 @@
       <option name="project" value="LOCAL" />
       <updated>1781533733778</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Scalar for API documentation">
+      <option name="closed" value="true" />
+      <created>1781536929089</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781536929089</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created entities">
+      <option name="closed" value="true" />
+      <created>1781539934851</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1781539934851</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +175,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Project setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project setup" />
+    <MESSAGE value="Added Scalar for API documentation" />
+    <MESSAGE value="Created entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created entities" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -152,6 +194,19 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/CarRental.API/Models/Car.cs</url>
+          <line>8</line>
+          <properties documentPath="$PROJECT_DIR$/CarRental.API/Models/Car.cs" containingFunctionPresentation="Property 'Model'">
+            <startOffsets>
+              <option value="159" />
+            </startOffsets>
+            <endOffsets>
+              <option value="163" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
