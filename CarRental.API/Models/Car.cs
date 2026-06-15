@@ -2,9 +2,6 @@ namespace CarRental.API.Models;
 
 public class Car
 {
-    /// <summary>
-    /// Represents a car available for rental.
-    /// </summary>
 
     public Guid Id { get; set; }
 
